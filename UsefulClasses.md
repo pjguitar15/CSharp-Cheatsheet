@@ -17,3 +17,35 @@
   Math.Abs(-4.7);  
   Math.Sqrt(64);
 ```
+
+## String Methods
+```csharp
+  string str = "Hello World";
+  str.Length; // string length
+  str.ToUpper(); // to uppercase
+  str.ToLower(); // to lowercase
+  str.Concat(str + str); // concatenate
+  name.Substring(2);
+  
+  // indexOf
+  string myString = "Hello";
+  Console.WriteLine(myString.IndexOf("e"));  // Outputs "1"
+  
+```
+
+## String interpolation
+```csharp
+  string firstName = "John";
+  string lastName = "Doe";
+  string name = $"My full name is: {firstName} {lastName}";
+  Console.WriteLine(name);
+  
+  
+```
+
+## CharAt using CSharp
+> you basically just have to get the specific character with Array syntax
+```csharp
+  string myString = "Hello";
+  Console.WriteLine(myString[0]);  // Outputs "H"
+```
