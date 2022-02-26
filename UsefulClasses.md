@@ -24,6 +24,26 @@ public class Main
 }
 ```
 
+## Automatic Properties
+> even more simplified properties
+```csharp
+class Person
+{
+  public string Name  // property
+  { get; set; }
+}
+
+class Program
+{
+  static void Main(string[] args)
+  {
+    Person myObj = new Person();
+    myObj.Name = "Liam";
+    Console.WriteLine(myObj.Name);
+  }
+}
+```
+
 ## Convert String to Integer
 ```csharp
   string num = "45";
