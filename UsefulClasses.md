@@ -1,21 +1,17 @@
 ## C# Properties
 > set and get simplified
 ```csharp
-class Person
-{
+class Person {
   private string name; // field
 
-  public string Name   // property
-  {
+  public string Name { // property
     get { return name; }   // get method
     set { name = value; }  // set method
   }
 }
 
-public class Main
-{
-  public static void Main(string[] args)
-  {
+public class Main {
+  public static void Main(string[] args) {
       Person person = new Person("Philcob");
       // you're only gonna touch the Name property to set and get the field
       person.Name = "Josol";
@@ -27,16 +23,13 @@ public class Main
 ## Automatic Properties
 > even more simplified properties
 ```csharp
-class Person
-{
+class Person {
   public string Name  // property
   { get; set; }
 }
 
-class Program
-{
-  static void Main(string[] args)
-  {
+class Program {
+  static void Main(string[] args) {
     Person myObj = new Person();
     myObj.Name = "Liam";
     Console.WriteLine(myObj.Name);
@@ -47,17 +40,20 @@ class Program
 ## Simplified Inheritance
 > doesn't need use keywords like "extends" in Java
 ```csharp
-class Vehicle  // base class (parent) 
-{
-  public string brand = "Ford";  // Vehicle field
-  public void honk()             // Vehicle method 
-  {                    
+// base class (parent) 
+class Vehicle { 
+
+  // Vehicle field
+  public string brand = "Ford";  
+  
+  // Vehicle method 
+  public void honk() { 
     Console.WriteLine("Tuut, tuut!");
   }
 }
 
-class Car : Vehicle  // derived class (child)
-{
+// derived class (child)
+class Car : Vehicle {
   public string modelName = "Mustang";  // Car field
 }
 ```
