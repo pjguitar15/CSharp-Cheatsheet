@@ -1,3 +1,28 @@
+## Propeties
+> set and get simplified
+```csharp
+class Person
+{
+  private string name; // field
+
+  public string Name   // property
+  {
+    get { return name; }   // get method
+    set { name = value; }  // set method
+  }
+}
+
+public class Main
+{
+  public static void Main(string[] args)
+  {
+      Person person = new Person("Philcob");
+      person.Name = "Josol";
+      Console.WriteLine(anotherClass.Name);
+  }
+}
+```
+
 ## Convert String to Integer
 ```csharp
   string num = "45";
