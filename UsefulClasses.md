@@ -44,6 +44,24 @@ class Program
 }
 ```
 
+## Simplified Inheritance
+> doesn't need use keywords like "extends" in Java
+```csharp
+class Vehicle  // base class (parent) 
+{
+  public string brand = "Ford";  // Vehicle field
+  public void honk()             // Vehicle method 
+  {                    
+    Console.WriteLine("Tuut, tuut!");
+  }
+}
+
+class Car : Vehicle  // derived class (child)
+{
+  public string modelName = "Mustang";  // Car field
+}
+```
+
 ## Convert String to Integer
 ```csharp
   string num = "45";
