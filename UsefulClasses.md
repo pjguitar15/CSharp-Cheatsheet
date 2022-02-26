@@ -1,4 +1,4 @@
-## Propeties
+## C# Properties
 > set and get simplified
 ```csharp
 class Person
