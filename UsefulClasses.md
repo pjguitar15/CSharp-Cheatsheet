@@ -38,7 +38,7 @@ class Program {
 ```
 
 ## Simplified Inheritance
-> doesn't need use keywords like "extends" in Java
+> no need use keywords like "extends" in Java
 ```csharp
 // base class (parent) 
 class Vehicle { 
