@@ -99,8 +99,13 @@ class Car : Vehicle {
   string lastName = "Doe";
   string name = $"My full name is: {firstName} {lastName}";
   Console.WriteLine(name);
-  
-  
+```
+
+## String interpolation (from class)
+```csharp
+  string firstName = "John";
+  string lastName = "Doe";  
+  Console.WriteLine("My full name is: {0} {1}", firstName, lastName);
 ```
 
 ## CharAt using CSharp
