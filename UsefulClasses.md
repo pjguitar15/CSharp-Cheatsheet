@@ -114,3 +114,9 @@ class Car : Vehicle {
   string myString = "Hello";
   Console.WriteLine(myString[0]);  // Outputs "H"
 ```
+
+###
+> arrays should be like this
+```
+string []myString = {"one", "two"};
+```
