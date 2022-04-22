@@ -117,6 +117,10 @@ class Car : Vehicle {
 
 ### Arrays in C#
 > arrays should be like this
-```
+```csharp
 string []myString = {"one", "two"};
+```
+### Two Dimentional Array
+```csharp
+int[ , ] x = { { 1, 2 ,3}, { 3, 4, 5 } };
 ```
