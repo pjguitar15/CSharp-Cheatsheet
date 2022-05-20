@@ -3,6 +3,11 @@
 dotnet new console
 ```
 
+### VSCODE Run Application
+```bash
+dotnet run
+```
+
 ## C# Properties
 > set and get simplified
 ```csharp
