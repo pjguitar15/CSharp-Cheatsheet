@@ -1,3 +1,8 @@
+### VSCODE Create a C# project
+```bash
+dotnet new console
+```
+
 ## C# Properties
 > set and get simplified
 ```csharp
