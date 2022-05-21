@@ -8,6 +8,22 @@ dotnet new console
 dotnet run
 ```
 
+### What is a namespace?
+> Collections of classes and interface
+```csharp
+Namespace name {
+  // classes
+  // interfaces  
+}
+```
+
+### Importing a namespace
+```csharp
+using NameSpaceName {
+  // should be PascalCase
+}
+```
+
 ## C# Properties
 > set and get simplified
 ```csharp
