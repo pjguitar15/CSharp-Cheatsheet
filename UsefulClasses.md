@@ -41,7 +41,7 @@ public class Main {
       Person person = new Person("Philcob");
       // you're only gonna touch the Name property to set and get the field
       person.Name = "Josol";
-      Console.WriteLine(anotherClass.Name);
+      Console.WriteLine(person.Name);
   }
 }
 ```
