@@ -11,7 +11,7 @@ dotnet run
 ### What is a namespace?
 > Collections of classes and interface
 ```csharp
-Namespace name {
+namespace name {
   // classes
   // interfaces  
 }
