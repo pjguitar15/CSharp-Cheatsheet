@@ -33,6 +33,7 @@ public class Main {
 > C# Convention
 
 ![image](https://user-images.githubusercontent.com/76026580/169626220-162ec3e7-07c9-44e8-84a3-fb847dde2e08.png)
+![image](https://user-images.githubusercontent.com/76026580/169626411-534d2da7-51f7-4d3e-addc-26246cbe97a1.png)
 
 ## Automatic Properties
 > even more simplified properties
